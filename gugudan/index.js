@@ -1,7 +1,7 @@
 document.querySelector('#click').addEventListener('click', ()=>{
 
-a = document.querySelector('#first').value
-b = document.querySelector('#second').value
+const a = document.querySelector('#first').value
+const b = document.querySelector('#second').value
 
 if(a){
     if(b){
